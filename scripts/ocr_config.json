@@ -1,0 +1,43 @@
+{
+    "alphabet": " !\"'()*+,-./0123456789:;<=>?ABCDEFGHIJKLMNOPRSTVWY[\\]_abcdefghiklmnoprstuvwxyz|}ЁАБВГДЕЖЗИКЛМНОПРСТУФХЦЧШЩЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяё’№",
+    "save_dir": "models/ocr_v1",
+    "num_epochs": 100,
+    "pretrain_path": "",
+    "image": {
+        "width": 1024,
+        "height": 128
+    },
+    "train": {
+        "datasets": [
+            {
+                "csv_path": "data/train.csv",
+                "prob": 1
+            }
+
+        ],
+        "epoch_size": 100000,
+        "batch_size": 64
+    },
+    "val": {
+        "datasets": [
+            {
+                "csv_path": "data/val.csv",
+                "prob": 1
+            }
+
+        ],
+        "epoch_size": null,
+        "batch_size": 64
+    },
+    "test": {
+        "datasets": [
+            {
+                "csv_path": "data/test.csv",
+                "prob": 1
+            }
+
+        ],
+        "epoch_size": null,
+        "batch_size": 64
+    }
+}

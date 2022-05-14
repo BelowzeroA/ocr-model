@@ -1,0 +1,8 @@
+opencv-python
+tqdm
+pudb
+scikit-learn
+scipy
+matplotlib
+ipywidgets
+Pillow
